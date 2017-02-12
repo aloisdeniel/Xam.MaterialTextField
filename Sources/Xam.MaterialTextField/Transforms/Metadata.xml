@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+
+  <!-- Removed protected fields -->
+  <remove-node path="/api/package[@name='com.github.florent37.materialtextfield']/class[@name='MaterialTextField']/field[@name='backgroundColor']" />
+  <remove-node path="/api/package[@name='com.github.florent37.materialtextfield']/class[@name='MaterialTextField']/field[@name='editText']" />
+  <remove-node path="/api/package[@name='com.github.florent37.materialtextfield']/class[@name='MaterialTextField']/field[@name='image']" />
+  <remove-node path="/api/package[@name='com.github.florent37.materialtextfield']/class[@name='MaterialTextField']/field[@name='hasFocus']" />
+  <remove-node path="/api/package[@name='com.github.florent37.materialtextfield']/class[@name='MaterialTextField']/field[@name='editTextLayout']" />
+  <remove-node path="/api/package[@name='com.github.florent37.materialtextfield']/class[@name='MaterialTextField']/field[@name='label']" />
+  <remove-node path="/api/package[@name='com.github.florent37.materialtextfield']/class[@name='MaterialTextField']/field[@name='card']" />
+	
+  <!-- Normalize the namespace for .NET -->
+  <attr path="/api/package[@name='com.github.florent37.materialtextfield']" name="managedName">Florent37</attr>
+		
+</metadata>

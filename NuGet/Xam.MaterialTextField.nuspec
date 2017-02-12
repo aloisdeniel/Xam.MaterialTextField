@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>Xam.MaterialTextField</id>
+       <version>$version$</version>
+       <title>MaterialTextField</title>
+       <authors>Aloïs Deniel</authors>
+       <owners>Aloïs Deniel</owners>
+     <licenseUrl>https://github.com/aloisdeniel/Xam.MaterialTextField/blob/master/LICENSE</licenseUrl>
+     <projectUrl>https://github.com/aloisdeniel/Xam.MaterialTextField</projectUrl>
+     <iconUrl>https://github.com/aloisdeniel/Xam.MaterialTextField/master/Documentation/Logo.png</iconUrl>
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>A different beautiful Floating Edit Text for Xamarin.Android.</description>
+       <summary>A different beautiful Floating Edit Text for Xamarin.Android.</summary>
+     <tags>Android, Xamarin, material, text, field</tags>
+     <dependencies>
+       <dependency id="Xamarin.Android.Support.v4" version="25.1.0" />
+     </dependencies>
+   </metadata>
+   <files>
+     <!-- Android -->
+     <file src="..\Sources\Xam.MaterialTextField\bin\Release\Xam.MaterialTextField.dll" target="lib\MonoAndroid10\Xam.MaterialTextField.dll" />
+   </files>
+</package>
